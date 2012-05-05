@@ -1,0 +1,5 @@
+J:\Rogério\Luciana\Web Forms\Salao Duas Rodas\Salao Duas Rodas\bin\Salao Duas Rodas.dll
+J:\Rogério\Luciana\Web Forms\Salao Duas Rodas\Salao Duas Rodas\bin\Salao Duas Rodas.pdb
+J:\Rogério\Luciana\Web Forms\Salao Duas Rodas\Salao Duas Rodas\obj\Debug\ResolveAssemblyReference.cache
+J:\Rogério\Luciana\Web Forms\Salao Duas Rodas\Salao Duas Rodas\obj\Debug\Salao Duas Rodas.dll
+J:\Rogério\Luciana\Web Forms\Salao Duas Rodas\Salao Duas Rodas\obj\Debug\Salao Duas Rodas.pdb

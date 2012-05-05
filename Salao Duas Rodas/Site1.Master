@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Salao_Duas_Rodas.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title></title>
+        <link href="~/StyleSheet1.css" rel="Stylesheet" type="text/css" />
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <div class="segundofundo" align="center" style="font-family: Bolt Bd BT">
+                <a href="Principal.aspx">
+                    <div class="titulo" alt="Salão Duas Rodas">
+                        <img src="Imagens/Titulo.jpg" width="100%" height="100%" alt="Salão Duas Rodas"/>
+                    </div>
+                </a>
+                <div align="center">De 4 à 9 de outubro de 2011, Anhembi, São Paulo, SP</div>
+                <asp:Menu ID="Menu1" runat="server" BackColor="Blue"
+                    DynamicHorizontalOffset="45" Font-Names="Bolt Bd BT" Font-Size="0.9em" 
+                    ForeColor="Black" Orientation="Horizontal" StaticSubMenuIndent="30px" 
+                    CssClass="dynamic selected" RenderingMode="List" BorderStyle="None">
+                    <DynamicHoverStyle BackColor="#0066FF" ForeColor="Black" />
+                    <DynamicMenuItemStyle HorizontalPadding="30px" VerticalPadding="10px" BackColor="#3399FF" ForeColor="White" />
+                    <DynamicMenuStyle BackColor="#66FF66" />
+                    <DynamicSelectedStyle BackColor="#3399FF" />
+                    <Items>
+                        <asp:MenuItem Text="Galeria de Imagens" Value="Galeria" NavigateUrl="~/Galeria.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Videos" Value="Videos"></asp:MenuItem>
+                        <asp:MenuItem Text="Informações" Value="Informacoes"></asp:MenuItem>
+                    </Items>
+                    <LevelMenuItemStyles>
+                        <asp:MenuItemStyle Font-Underline="False" />
+                    </LevelMenuItemStyles>
+                    <StaticHoverStyle BackColor="#0066FF" ForeColor="White" BorderStyle="None" />
+                    <StaticMenuItemStyle HorizontalPadding="65px" VerticalPadding="10px" BackColor="Silver"/>
+                    <StaticMenuStyle BorderColor="#FFFF66" />
+                    <StaticSelectedStyle BackColor="Silver" />
+                </asp:Menu>
+
+                <div style="width: 100%; height: 20px; background-color: red;"></div>
+
+                <!-- 1° BackColor= cor de fundo
+                        ForeColor= cor das letras -->
+                <div style="width: 100%; background-color: White; height: 794px;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">                
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

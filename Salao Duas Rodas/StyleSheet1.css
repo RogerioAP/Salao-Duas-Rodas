@@ -1,0 +1,54 @@
+﻿body 
+{
+    background: #e8e8e8; /*fundo do site todo*/
+}
+
+.segundofundo /* BLOCO pricipal     2° fundo*/
+{
+    /*background-image: url("/Ima/10486914-shiny-diamond-plate-background.png");*/
+    /*background-repeat: no-repeat;*/
+    background: #ffffff;
+    width: 700px;
+    height: 1000px;
+    margin: 20px auto;
+    
+    border-left: 100px solid #000000;
+    border-right: 100px solid #000000;
+    /*background-image: none | 10486914-shiny-diamond-plate-background.png;*/
+                /*<img src="Ima/10486914-shiny-diamond-plate-background.png" width="100%" height="100%"/>*/
+}
+
+.titulo
+{
+    background: #777777;
+    /*margin: 0px auto;*/       /* MARGIN define a posição do bloco*/
+    /*width: 60%;*/       /*WIDTH define a largura do bloco*/
+    height: 130px;       /*HEGHT define o tamanho*/
+    
+    /*float: right;*/
+    
+    /*position: absolute;
+    margin: 0px 100px;*/
+}
+
+.textodestaques
+{
+    width: 100%;
+    height: 60px;
+    font-family: HandelGotDLig;
+    background-color: Red;
+}
+
+.textodeoutros
+{
+    width: 100%;
+    height: 70px;
+    font-family: HandelGotDLig;
+    /*text-decoration: none;            tirar o sublinhado dos links */
+}
+
+.tamanhodosdestaques
+{
+    width: 100%;
+    height: 300px;
+}
